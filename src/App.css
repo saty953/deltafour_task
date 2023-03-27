@@ -1,0 +1,33 @@
+.donut-chart {
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+  }
+  
+  @media (min-width: 576px) {
+    .donut-chart {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .donut-chart {
+      max-width: 600px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .donut-chart {
+      max-width: 800px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .donut-chart {
+      max-width: 1000px;
+    }
+  }
+  
+
+
