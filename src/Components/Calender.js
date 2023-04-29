@@ -5,6 +5,7 @@ import 'react-calendar/dist/Calendar.css';
 function CalendarComponent() {
   const [date, setDate] = useState(new Date());
 
+  // this function indicates the date change
   function onChange(newDate) {
     setDate(newDate);
   }
